@@ -1,61 +1,96 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My Page!</title>
-    <style>
-      body {
-        background : rgb(58, 58, 58);
-        color : white;
-        font-family : "Helvetica Neue", "Arial"  , Helvetica, "sans-serif";
-        margin:0;
-        padding:0;
-      }
-      h1 {
-        color: rgb(0, 183, 255);
-      }
-      h2{
-        color: green;
-      } 
-      h6 {
-        color:black;
-      }
-      button{
-        background: gray;
-        border : none ;
-        color :aqua 
-      }
-      </style>
-      </head>
-      <body>
-        <header></header>
-        
-        <h1> Akumah-Odonkor Asley Koryoe</h1>
-        <h2> Welcome</h2>
-        <button>Click Me</button>
-      </body>
-</html>
-<style>
-    header{
-        background : black;
-        padding :20px;
-        
-    }
-    section{
-        background: red;
-        color : rgb(255, 255, 255);
-        padding : 40px
-    }
-    footer{
-        background : black;
-        padding : 20px 
-    }
-    </style>
-      </head>
-      <body>
-        <header>header</header>
-        <section>triple section</section>
-        <section>lower section</section>
-        <footer>footer</footer>
-    
-      </body>
+<head>
+    <title>Akumah-Odonkor Asley Koryoe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <body>
+    <h1>My Profile</h1>
+    <h2> Akumah-Odonkor Asley Koryoe</h2>
+    <p>I am a student Of UG, offering Bsc Computer Science.
+     I am a hardworking lady.
+     I have a particular interest in web development and user experience design.</p>
+     <img src="image/Koryoe.jpg" alt="Profile Picture" width="200" height="200">
+     <section>
+        <h3>Education Information</h3>
+        <ul>
+        <li>Junior High School:  Labone SDA School</li>
+        <li>Senior High School: Holy Chid SHS</li>
+        <li> University: University Of Ghana Legon</li>
+        </ul>
+     </section>
+    <section>
+      <h3> Experinces</h3>
+        <ul>
+          <li>Internship at Aguilla Holdings</li>
+          <li>Volunteer at Local Community Center</li>
+          <li>Practiced using Git and GitHub for version control and project collaboration </li>
+        </ul>
+    </section>
+    <section>
+      <h3> Leadership </h3>
+        <ul>
+          <li>Prefect of Science 9 in Holy Child</li>
+          <li>Team Lead for University Project on Web Development</li>
+          <li> Led a group project and helped coordinate tasks among team members.</li>
+        </ul>
+    </section>
+    <section>
+      <h3> Achievements </h3>
+        <ul>
+          <li>Best Student in Science 2018</li>
+          <li>Participated in group projects that strengthened my teamwork and communication skills.</li> 
+          <li>Improved my programming skills in languages like HTML, CSS, and JavaScript. </li>
+        </ul>
+    </section>
+    <section>
+      <h3> Hobbies </h3>
+        <ul>
+          <li>Reading Tech Blogs</li>
+          <li>Coding Personal Projects</li>
+          <li>Exploring New Web Technologies</li>
+        </ul> 
+    </section>
+    <section>
+      <h3> Contact Me </h3>
+        <table border="1">
+          <tr>
+            <th>
+Phone Number:
+            </th>
+            <th>Email:</th>
+            <th> Adress:</th>
+            <tbody>
+              <tr>
+                <td> +233 24 123 4567</td>
+                <td> asleykoryoe@gmail.com </td>
+                <td> Accra, Ghana</td>  
+              </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+      <h3> Social Media </h3>
+        <ul>
+          <li> <a href="https://www.facebook.com/asley.koryoe"> Facebook</a> </li>
+          <li> <a href="https://www.twitter.com/asley_koryoe"> Twitter</a> </li>
+          <li> <a href="https://www.linkedin.com/in/asley-koryoe"> LinkedIn</a> </li>
+        </ul>
+    </section>
+    <section>
+      <h3>Contact Form</h3>
+      <form action="submit_form.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+        <input type="submit" value="Submit">
+    </section>
+    <footer>
+      <p> Akuamh-Odonkor Asley Koryoe. &copy; 2025</p>
+    </footer>
+
+    </body>
 </html>
